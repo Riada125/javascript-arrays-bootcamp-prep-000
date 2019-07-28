@@ -35,7 +35,9 @@ return array;
 }
 
 function removeElementFromBeginningOfArray(array){
-  return array.slice(1);
+  return array.slice(0);
 }
 
-function 
+function destructivelyRemoveElementFromEndOfArray(array){
+  
+}
